@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 function Cta() {
   return (
-    <section>
+    <section className="cta">
       <div className="bg-gray-tint3 mb-24 flex flex-col items-center justify-center gap-9 pb-16 pt-16">
         <div className="flex flex-col items-center gap-4">
           <h1 className="text-center text-4xl font-semibold tracking-tight lg:text-4xl">

@@ -27,7 +27,7 @@ const features2 = [
 
 function Features2() {
   return (
-    <section>
+    <section className="features2">
       <div className="mb-24 flex flex-col items-center gap-9">
         <div className="flex max-w-[768px] flex-col items-center justify-center gap-7">
           <Badge>Features</Badge>

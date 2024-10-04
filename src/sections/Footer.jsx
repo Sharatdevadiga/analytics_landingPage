@@ -71,7 +71,7 @@ const footerData = [
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="text-gray-shade3 border-gray mx-auto mb-16 border-b px-4 pb-16">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-6">
           {footerData.map((section, index) => (

@@ -36,7 +36,7 @@ const accordionData = [
 
 function Questions() {
   return (
-    <section>
+    <section className="questions">
       <div className="mb-24 flex flex-col items-center gap-9 pb-16 pt-16">
         <div className="flex max-w-[768px] flex-col items-center justify-center gap-7">
           <h2 className="text-center text-[30px] font-semibold md:text-4xl">

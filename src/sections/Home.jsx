@@ -3,7 +3,7 @@ import HomeContent from "../components/home/HomeContent";
 
 function Home() {
   return (
-    <section>
+    <section className="home">
       <Header />
       <HomeContent />
     </section>

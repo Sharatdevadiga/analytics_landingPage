@@ -36,7 +36,7 @@ const blogData = [
 
 function BlogPost() {
   return (
-    <section>
+    <section className="blogpost">
       <div className="mx-auto mb-24 pt-16 xl:max-w-[1280px]">
         <div className="flex w-full items-center justify-between">
           <span className="text-primary-shade1 font-semibold">Our Blog</span>

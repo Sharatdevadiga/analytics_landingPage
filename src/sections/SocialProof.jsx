@@ -9,7 +9,7 @@ function SocialProof() {
   ];
   const basePath = "socialproof/";
   return (
-    <section>
+    <section className="socialproof">
       <div className="mb-16 flex flex-col items-center gap-6 sm:mb-24">
         <p className="text-gray-shade2 text-base">
           Join 4,000+ companies already growing

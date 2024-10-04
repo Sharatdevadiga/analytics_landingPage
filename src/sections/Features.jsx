@@ -41,7 +41,7 @@ const features = [
 
 function Features() {
   return (
-    <section>
+    <section className="features">
       <div className="mb-24 flex w-full flex-col items-center gap-16 pt-16">
         <div className="flex max-w-[768px] flex-col items-center justify-center gap-7">
           <span className="text-primary-shade1 font-semibold">Features</span>
