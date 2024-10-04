@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/inter/variable.css";
+
+/* @layer components {
+  .heading-display-xl {
+    @apply font-inter text-display-xl leading-display-xl text-center font-semibold tracking-tight;
+  }
+
+  .heading-display-lg {
+    @apply font-inter text-display-lg leading-display-lg text-center font-medium tracking-tight;
+  }
+
+  .heading-display-md {
+    @apply font-inter text-display-md leading-display-md text-center font-semibold tracking-tight;
+  }
+
+  .paragraph-text-xl-regular {
+    @apply font-inter leading-text-xl text-center text-xl font-normal;
+  }
+
+  .paragraph-text-xl-semibold {
+    @apply font-inter leading-text-xl text-center text-xl font-semibold;
+  }
+
+  .paragraph-text-lg-semibold {
+    @apply font-inter leading-text-lg text-left text-lg font-semibold;
+  }
+
+  .paragraph-text-lg-medium {
+    @apply font-inter leading-text-lg text-left text-lg font-medium;
+  }
+
+  .paragraph-text-md-regular {
+    @apply font-inter text-md leading-text-md text-center font-normal;
+  }
+
+  .paragraph-text-md-semibold {
+    @apply font-inter text-md leading-text-md text-left font-semibold;
+  }
+
+  .paragraph-text-md-medium {
+    @apply font-inter text-md leading-text-md text-center font-medium;
+  }
+
+  .paragraph-text-sm-medium {
+    @apply font-inter leading-text-sm text-center text-sm font-medium;
+  }
+
+  .paragraph-text-sm-regular {
+    @apply font-inter leading-text-sm text-left text-sm font-normal;
+  }
+
+  .paragraph-text-sm-semibold {
+    @apply font-inter leading-text-sm text-left text-sm font-semibold;
+  }
+
+  .paragraph-text-lg-regular {
+    @apply font-inter leading-text-lg text-center text-lg font-normal;
+  }
+} */
