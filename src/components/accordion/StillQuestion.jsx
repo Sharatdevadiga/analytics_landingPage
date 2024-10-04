@@ -3,7 +3,7 @@ import Button from "../Button";
 
 function StillQuestion() {
   return (
-    <div className="bg-gray-tint3 pt-216 flex w-full flex-col items-center justify-center space-y-6 p-2 pb-12 pt-12 text-center sm:w-5/6 md:px-6">
+    <div className="bg-gray-tint3 flex w-full flex-col items-center justify-center space-y-6 p-2 pb-12 pt-12 text-center md:px-6 xl:w-[1280px]">
       <div className="flex">
         <span className="translate-x-2 translate-y-1">
           <Avatar path="./avatar/avatar-alec.webp" />

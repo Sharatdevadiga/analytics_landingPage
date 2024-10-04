@@ -44,7 +44,7 @@ function Features() {
     <section>
       <div className="mb-24 flex w-full flex-col items-center gap-16 pt-16">
         <div className="flex max-w-[768px] flex-col items-center justify-center gap-7">
-          <span className="font-base text-primary-shade1">Features</span>
+          <span className="text-primary-shade1 font-semibold">Features</span>
           <h2 className="text-center text-[30px] font-semibold md:text-4xl">
             Analytics that feels like it’s from the future
           </h2>

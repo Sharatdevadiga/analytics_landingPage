@@ -36,18 +36,20 @@ const accordionData = [
 
 function Questions() {
   return (
-    <div className="mb-24 flex flex-col items-center gap-9 pb-16 pt-16">
-      <div className="flex max-w-[768px] flex-col items-center justify-center gap-7">
-        <h2 className="text-center text-[30px] font-semibold md:text-4xl">
-          Frequently asked questions
-        </h2>
-        <p className="text-gray-shade2 text-center text-base">
-          Everything you need to know about the product and billing.
-        </p>
+    <section>
+      <div className="mb-24 flex flex-col items-center gap-9 pb-16 pt-16">
+        <div className="flex max-w-[768px] flex-col items-center justify-center gap-7">
+          <h2 className="text-center text-[30px] font-semibold md:text-4xl">
+            Frequently asked questions
+          </h2>
+          <p className="text-gray-shade2 text-center text-base">
+            Everything you need to know about the product and billing.
+          </p>
+        </div>
+        <Accordion data={accordionData} />
+        <StillQuestion />
       </div>
-      <Accordion data={accordionData} />
-      <StillQuestion />
-    </div>
+    </section>
   );
 }
 
